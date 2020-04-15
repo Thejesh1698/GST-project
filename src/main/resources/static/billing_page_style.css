@@ -1,0 +1,187 @@
+body{
+    /*first
+    background-image: linear-gradient(to  right bottom, #4443a7, #02bed9);*/
+    /*second*/
+    background-image: linear-gradient(to  right bottom, #ff626e, #ffc172);
+}
+
+#H1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: "Malgun Gothic";
+}
+
+#search_division{
+    width: 600px;
+    height: 45px;
+    /*first*/
+    /*background-image: linear-gradient(to  right, #994474, #fd7085);
+    background-image: linear-gradient(to  right, #ff626e, #ffc172);*/
+    /*second*/
+    background-image: linear-gradient(to  right, #4443a7, #02bed9);
+    margin: 0px auto 0px auto;
+    border-radius: 50px;
+    padding: 5px;
+    box-shadow: 0px 0px 7px 0.5px black;
+}
+
+
+#search_icon{
+    width: 60px;
+}
+
+#search_space{
+    border: none;
+    /*first*/
+    /*background-image: linear-gradient(to  right, #994474, #fd7085);
+    background-image: linear-gradient(to  right, #ff626e, #ffc172);*/
+    /*second*/
+    background-image: linear-gradient(to  right, #4c4abb, #04a7bf);
+    width: 440px;
+    height: 41px;
+    color: white;
+    font-size: 25px;
+}
+
+#search_space:focus{
+    outline: none;
+}
+
+#search_button{
+    border:none;
+    background-color: white;
+    font-size: 25px;
+    width: 95px;
+    text-align: center;
+    border-radius: 50px;
+    height: 40px;
+    color: #1b9ba3;
+
+    /*in order to make sure not select the text*/
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10+ and Edge */
+    user-select: none; /* Standard syntax */
+}
+
+#search_button:hover,.search_result_td_add:hover{
+    box-shadow: 0px 0px 3px 3px #1A7D85;
+    background-color: #00CCA6;
+    color: white;
+}
+
+#id1{
+    width: 100px;
+}
+
+
+#search_result{
+    width: 590px;
+    padding: 10px;
+    /*first*/
+    /*background-image: linear-gradient(to  right, #994474, #fd7085);
+    background-image: linear-gradient(to  right, #ff626e, #ffc172);*/
+    /*second*/
+    background-image: linear-gradient(to  right, #4443a7, #02bed9);
+    margin: 20px auto 0px auto;
+    border-radius: 10px;
+    color: white;
+}
+
+
+#search_result_table th{
+    color: white;
+    width: 118px;
+    font-size: 19px;
+}
+
+#search_result_table tr{
+    color: white;
+    text-align: center;
+}
+
+.search_result_td{
+    text-align: center;
+    width: 115px;
+    background-color: #1b9ba3;
+    color: white;
+    border:none;
+    border-bottom: 1px solid #18878e;
+    font-size: 18px;
+}
+
+.search_result_td_add{
+    border: none;
+    width: 115px;
+    color: #1b9ba3;
+    background-color: white;
+    border:none;
+    border-radius: 10px;
+}
+
+#products_list{
+    margin: 20px auto 0px auto;
+    width: 900px;
+    /*first*/
+    /*background-image: linear-gradient(to  right, #994474, #fd7085);
+    background-image: linear-gradient(to  right, #ff626e, #ffc172);*/
+    /*second*/
+    background-image: linear-gradient(to  right, #4443a7, #02bed9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0.5px black;
+}
+
+#products_list th{
+    width: 225px;
+    text-align: center;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+}
+
+#products_list td{
+    width: 225px;
+    text-align: center;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid #17868d;
+}
+
+#cart_heading{
+    margin: auto auto;
+}
+
+.white{
+    background-image: linear-gradient(to  right, #ff7b70, #ffaa72);
+}
+
+.no_border{
+    border-bottom: 0px solid black;
+}
+
+#back{
+    display: inline;
+}
+#back input{
+    position: fixed;
+    margin: 10px 0px 0px 10px;
+    border: none;
+    background-color: #ff686f;
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    outline: none;
+}
+#back input:hover{
+    color: white;
+}
+
+#error{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}

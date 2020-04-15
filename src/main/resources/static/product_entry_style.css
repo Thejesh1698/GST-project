@@ -1,0 +1,109 @@
+body{
+    /*background-color: #1b9ba3;*/
+    background-image: linear-gradient(to bottom right, #4a49b8, #04a9c0);
+
+}
+
+#main_heading{
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: white;
+    font-family: "Malgun Gothic";
+}
+
+#main_division{
+    background-color: #1b9ba3;
+    margin: 20px auto 0px auto;
+    width: 1000px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 7px 0.5px #000000;
+}
+
+table{
+    font-size: 25px;
+    border-radius: 10px;
+    background-image: linear-gradient(to  right, #ff626e, #ffc172);
+}
+
+#main_division td{
+    width: 200px;
+    text-align: center;
+    height: 35px;
+    border-bottom: 1px solid #ddd;
+    color: white;
+}
+
+#main_division th{
+    width: 200px;
+    text-align: center;
+    height: 40px;
+    border-bottom: 1px solid #ddd;
+    color: white;
+    border-bottom: 0px;
+    border-radius: 5px;
+}
+
+#button1,#button2{
+    background-color: white;
+    width: 800px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#button2{
+    width: 195px;
+}
+
+#form1{
+    display: inline;
+}
+
+#buttons_division{
+    margin: 0px auto 0px auto;
+    width: 1000px;
+    font-size: 20px;
+}
+
+
+#productForm, #editForm{
+    display: none;
+    position: fixed;
+    z-index: 9;
+    background-image: linear-gradient(to  right, #ff626e, #ffc172);
+    top: 30%;
+    left: 30%;
+    width: 500px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 0px 7px 0.5px #000000;
+}
+
+#productForm table, #editForm table{
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+.close{
+    position: relative;
+    float: right;
+    display: inline;
+    font-size: 25px;
+    font-family: "Lucida Sans Unicode";
+}
+
+.close:hover{
+    color: white;
+    background-color: red;
+}
+
+#error{
+    text-align: center;
+    color: #ff575d;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
